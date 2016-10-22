@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset = "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Audi GUI</title>
+<!-- jQuery library -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 <body>
-
-<button >Welcome</button
-
+  <nav class = "navbar navbar-fixed-top bg-faded navbar-right" style = "background-color:rgba(48,41,36,0.35); height:140px; width:100%;">
+    <div class = "navbar-header navbar-right" style = "margin-right: 9%; margin-top:1%; margin-bottom: 1%;">
+      <a class = "navbar-brand" href = "#">
+        <img id = "Logo" alt = "Brand" src = "audiLogo.png"  style = "height:120px; width: 145px; margin: 3px 0 0 25px;">
+        <a class = "navbar-brand" href = "#"  >
+          <img id = "greenLogo" alt = "b" src = '/greenlogo.svg' style = "height:90px; width: 130px; margin: 9px 0 0 25px;">
+        </a>
+      </a>
+    </div>
+  </nav>
+  <div class = "container-fluid">
+    <div class = "row" style = "height: 100%">
+      <div class = "col-sm-12" style="background-color:white; height:1000px;">
+        <img src = "audiLogo.png" style = "height:800px; width: 900px; margin: 7% 0 0 33%;">
+      </div>
+    </div>
+    <div class = "row" >
+      <div class = "col-sm-6" style="background-color:white; height:600px;">
+        <button type="button" class="btn btn-primary btn-lg" style = 'margin:0 0 0 85%;'>Go Online</button>
+      </div>
+      <div class = "col-sm-6" style="background-color:white; height:600px;">
+        <button type="button" class="btn btn-primary btn-lg" style = 'margin:0 0 0 5%;'>Download Press Footage</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

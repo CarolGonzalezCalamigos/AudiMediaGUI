@@ -4,7 +4,8 @@
   "description": "GUI for uploading audi event pics",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/CarolGonzalezCalamigos/AudiMediaGUI/issues"
   },
-  "homepage": "https://github.com/CarolGonzalezCalamigos/AudiMediaGUI#readme"
+  "homepage": "https://github.com/CarolGonzalezCalamigos/AudiMediaGUI#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
 }
